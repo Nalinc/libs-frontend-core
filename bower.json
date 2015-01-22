@@ -8,10 +8,8 @@
   "description": "Core frontend libraries for comprodls",
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
+    "**/.*",   
     "test",
-    "tests"
+    "src"
   ]
 }

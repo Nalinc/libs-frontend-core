@@ -43,6 +43,14 @@ module.exports = function (grunt) {
                 ],
                 dest: dist + "img"
             },
+            fonts: {
+		expand: true,
+		cwd: src + "styles/fonts",
+		src: [
+		    '**/*'
+		],
+		dest: dist + "fonts"
+            },
             js: {
                 expand: true,
                 cwd: src + "js",

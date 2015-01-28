@@ -17,5 +17,9 @@
     "preinstall": "npm install grunt-cli",
     "postinstall": "npm run build",
     "build": "grunt"
+  },
+  "devDependencies": {
+    "ejs": "~1.0.0",
+    "express": "^4.10.4"
   }
 }

@@ -22,7 +22,7 @@ define(['angular',
                     }
                 }
             });
-        $urlRouterProvider.otherwise('/dashboard');
+        $urlRouterProvider.otherwise('/login');
 
     });
 

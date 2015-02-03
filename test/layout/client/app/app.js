@@ -24,7 +24,8 @@ define([
         'ui.bootstrap',
         // App        
         'app.layout',       
-        'app.dashboard'       
+        'app.dashboard',
+        'app.auth'       
     ]);
 
     couchPotato.configureApp(app);

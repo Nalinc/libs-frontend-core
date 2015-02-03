@@ -17,7 +17,13 @@
                  class="fa fa-reorder"></i></a> </span>
      </div>
      <!-- end collapse menu -->   
- 
+
+        <!-- logout button -->
+    <div id="logout" class="btn-header transparent pull-right" ng-if="user">
+        <span> <a ui-sref="login" title="Sign Out" ><i
+                class="fa fa-sign-out"></i></a> </span>
+    </div>
+        
      <!-- fullscreen button -->
      <div id="fullscreen" class="btn-header transparent pull-right">
          <span> <a full-screen title="Full Screen"><i

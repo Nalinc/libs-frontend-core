@@ -58,6 +58,13 @@ module.exports = function (grunt) {
                     '**/*'
                 ],
                 dest: dist + "js"
+            },
+            tasks: {
+                expand: true,
+                src: [
+                    'tasks/**'
+                ],
+                dest: dist
             }
         },
         concat: {          

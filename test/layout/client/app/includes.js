@@ -1,5 +1,9 @@
 define([
-        
+
+    //auth
+    'auth/module',
+    'auth/models/User',
+    'auth/login/LoginCtrl',
      // layout
     'layout/module',
     'layout/actions/minifyMenu',

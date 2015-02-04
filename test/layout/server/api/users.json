@@ -1,0 +1,26 @@
+[
+	{
+	    "username": "core1",
+	    "password":"compro",
+	    "profilepic": "styles/libs/libs-frontend-core/img/avatars/sunny.png",
+	    "role": "student",
+	    "email": "core1@comprotechnologies.com",
+	    "designation": "",
+	    "description": "",
+	    "phone": "",
+	    "created_on": "",
+	    "active": 1
+	},
+	{
+	    "username": "core2",
+	    "password":"compro",
+	    "profilepic": "styles/libs/libs-frontend-core/img/avatars/sunny.png",
+	    "role": "student",
+	    "email": "core2@comprotechnologies.com",
+	    "designation": "",
+	    "description": "",
+	    "phone": "",
+	    "created_on": "",
+	    "active": 1
+	}
+]

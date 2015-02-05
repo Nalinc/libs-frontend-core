@@ -187,9 +187,9 @@ module.exports = function (grunt) {
         
         //Update data-main to include versioned module(main)
         if(options.requireJs.datamain){
-            var datamain = options.requireJs.datamain.replace('.js','');          
-            htmlFile = htmlFile.replace('data-main=\"'+ datamain +'.js\"','data-main=\"' + datamain + '-' + pkgversion + '.js\"');
-            htmlFile = htmlFile.replace('data-main=\''+ datamain +'.js\'','data-main=\"' + datamain + '-' + pkgversion + '.js\"');
+            var datamain = options.requireJs.datamain;          
+            htmlFile = htmlFile.replace('data-main=\"'+ datamain +'\"','data-main=\"' + datamain + '-' + pkgversion + '\"');
+            htmlFile = htmlFile.replace('data-main=\''+ datamain +'\'','data-main=\"' + datamain + '-' + pkgversion + '\"');
         }
         
         //Update rconfigJs reference in index html

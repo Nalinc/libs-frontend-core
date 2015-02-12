@@ -27,6 +27,7 @@ define([
     'layout/directives/smartPageTitle',
     'layout/directives/hrefVoid',
     'layout/service/SmartCss',
+    'layout/directives/dlsSkin',
     
     //Language Selector
     'components/language/Language',

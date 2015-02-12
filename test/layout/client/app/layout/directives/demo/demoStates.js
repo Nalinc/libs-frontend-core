@@ -105,13 +105,15 @@ define(['layout/module', 'lodash', 'notification'], function (module, _) {
                     $root.removeClass(_.pluck($scope.skins, 'name').join(' '));
                     $root.addClass(skin.name);
                     localStorage.setItem('sm-skin', skin.name);
-                    $("#logo img").attr('src', skin.logo);
+                    //$("#logo img").attr('src', skin.logo);
                 };
 
 
+                /**
                 if($scope.smartSkin != "smart-style-0"){
                     $scope.setSkin(_.find($scope.skins, {name: $scope.smartSkin}))
                 }
+                **/
 
 
                 $scope.factoryReset = function () {

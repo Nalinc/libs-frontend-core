@@ -4,6 +4,15 @@
 @smstyle-1-ribbon-color : #e6e6e6;
 @smstyle-1-breadcrumb-color : #868686;
 
+/*** External page styles **/
+#extr-page  {
+	.smart-style-1 {
+		#header {
+        		background-color: #22262e !important;  
+        	}
+        }	
+}
+
 .smart-style-1 {
     a {
         transition: color 0.1s linear 0s,background-color 0.1s linear 0s !important;
@@ -11,11 +20,14 @@
     body.container {
         border-left: 1px solid rgba(34, 38, 46, 0.4);
         border-right: 1px solid rgba(34, 38, 46, 0.4);
-    }
+    }   
+    
     #header {
         background-image:none;
         background-color:#22262e;
-    }
+        color:white;
+    }    
+   
     .project-context {
         & > :first-child {
             color: #697B92;

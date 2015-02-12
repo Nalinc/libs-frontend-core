@@ -1,6 +1,6 @@
 {
   "name": "libs-frontend-core",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Core frontend libraries for comprodls",
   "main": "Gruntfile.js",
   "author": "Compro",

@@ -26197,8 +26197,12 @@ body.smart-style-4 {
 #header #logo-group {
   width: auto;
 }
-#extr-page #header h1 {
+#header #logo-group h1.dls-title {
+  padding-left: 15px;
+}
+#extr-page #header #logo-group h1.dls-title {
   padding-top: 10px;
+  padding-left: 0px;
 }
 
 .smart-rtl blockquote {

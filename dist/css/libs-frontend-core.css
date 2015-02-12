@@ -23203,6 +23203,10 @@ body.menu-on-top.fixed-header.fixed-navigation.fixed-ribbon #ribbon {
   border: 1px solid #797979!important;
 }
 /********************************************************************* DARK ELEGANCE SKIN *************************************************************/
+/*** External page styles **/
+#extr-page .smart-style-1 #header {
+  background-color: #22262e !important;
+}
 .smart-style-1 a {
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s !important;
 }
@@ -23213,6 +23217,7 @@ body.menu-on-top.fixed-header.fixed-navigation.fixed-ribbon #ribbon {
 .smart-style-1 #header {
   background-image: none;
   background-color: #22262e;
+  color: white;
 }
 .smart-style-1 .project-context > :first-child {
   color: #697B92;
@@ -26185,6 +26190,18 @@ body.smart-style-4 {
   .smart-style-5 #sparks {
     background: transparent;
   }
+}
+/*********************************
+* Customisations for comproDLS
+*********************************/
+#logo-group h1 {
+  width: 500px;
+}
+#logo-group h1.dls-title {
+  padding-left: 15px;
+}
+#extr-page #header h1 {
+  padding-top: 10px;
 }
 
 .smart-rtl blockquote {

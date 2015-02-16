@@ -13,7 +13,7 @@ app.get('/api/langs/:id', controllers.langsController);
 app.get('/api/:id', controllers.apiController);
 
 //Serve Static content
-app.use(express.static(path.normalize(__dirname + '/../../../'))); 
+app.use(express.static(path.normalize(__dirname + '/../../'))); 
 
 app.listen(port, function() {
     console.log("Express server started");

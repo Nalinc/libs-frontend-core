@@ -17240,7 +17240,7 @@ aside {
 }
 #logo {
   display: inline-block;
-  width: 255px;
+  width: 205px;
   margin-top: 13px;
   margin-left: 9px;
 }
@@ -17370,7 +17370,7 @@ aside {
 }
 #header > :first-child,
 aside {
-  width: 300px;
+  width: 250px;
 }
 /*
  * LEFT PANEL
@@ -17386,7 +17386,7 @@ aside {
  * MAIN PANEL
  */
 #main {
-  margin-left: 300px;
+  margin-left: 250px;
   padding: 0;
   padding-bottom: 52px;
   min-height: 500px;
@@ -17420,7 +17420,7 @@ aside {
 .fixed-ribbon #ribbon {
   position: fixed;
   right: 0;
-  left: 300px;
+  left: 250px;
   top: 49px;
   z-index: 901;
 }
@@ -18964,7 +18964,7 @@ img.away {
   position: absolute;
   left: 40px;
   top: -3px;
-  width: 266px;
+  width: 216px;
   height: 38px;
   line-height: 38px;
   background-color: whiteSmoke;
@@ -18982,7 +18982,7 @@ img.away {
   display: none !important;
   position: absolute;
   left: 40px;
-  width: 279px;
+  width: 229px;
   z-index: 5;
   border: 1px solid #bfbfbf;
   min-height: 180px;
@@ -18999,7 +18999,7 @@ img.away {
   border: none;
   width: auto;
   margin-left: -12px;
-  width: 277px;
+  width: 227px;
 }
 .minified nav > ul > li:hover > a > .menu-item-parent,
 .minified nav > ul > li:hover > ul {
@@ -19485,7 +19485,7 @@ img.away {
  * HIDDEN MENU
  */
 .hidden-menu #left-panel {
-  left: -290px;
+  left: -240px;
   z-index: 903;
 }
 .hidden-menu #main {
@@ -21953,7 +21953,7 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
 .page-footer {
   height: 52px;
   padding: 15px 13px 0;
-  padding-left: 313px;
+  padding-left: 263px;
   border-top: 1px solid #CECECE;
   background: #2a2725;
   width: 100%;
@@ -22089,7 +22089,7 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     margin-left: 0;
   }
   #left-panel {
-    left: -300px;
+    left: -250px;
   }
   /* minified adjustment counter */
   .minified #left-panel {
@@ -22119,10 +22119,10 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   }
   .hidden-menu #main {
     position: relative;
-    left: 290px;
+    left: 240px;
   }
   .hidden-menu.fixed-ribbon #ribbon {
-    left: 300px;
+    left: 250px;
     width: 100%;
   }
   .fixed-ribbon #ribbon {
@@ -22153,7 +22153,7 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     overflow-x: hidden;
   }
   #left-panel {
-    left: -300px;
+    left: -250px;
   }
   .no-content-padding {
     margin: 0 -14px !important;
@@ -22205,10 +22205,10 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   }
   .hidden-menu #main {
     position: relative;
-    left: 290px;
+    left: 240px;
   }
   .hidden-menu.fixed-ribbon #ribbon {
-    left: 300px;
+    left: 250px;
     width: 100%;
   }
   .fixed-ribbon #ribbon {
@@ -22243,7 +22243,7 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     overflow-x: hidden;
   }
   #left-panel {
-    left: -300px;
+    left: -250px;
   }
   /* dashboard microcharts */
   .show-stat-microcharts > div {
@@ -22319,10 +22319,10 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   }
   .hidden-menu #main {
     position: relative;
-    left: 290px;
+    left: 240px;
   }
   .hidden-menu.fixed-ribbon #ribbon {
-    left: 300px;
+    left: 250px;
     width: 100%;
   }
   .fixed-ribbon #ribbon {
@@ -22403,7 +22403,7 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     overflow-x: hidden;
   }
   #left-panel {
-    left: -300px;
+    left: -250px;
   }
   /* dashboard microcharts */
   .show-stat-microcharts > div {
@@ -22497,10 +22497,10 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   }
   .hidden-menu #main {
     position: relative;
-    left: 290px;
+    left: 240px;
   }
   .hidden-menu.fixed-ribbon #ribbon {
-    left: 300px;
+    left: 250px;
     width: 100%;
   }
   .fixed-ribbon #ribbon {
@@ -22591,7 +22591,7 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
     overflow-x: hidden;
   }
   #left-panel {
-    left: -300px;
+    left: -250px;
   }
   /* dashboard microcharts */
   .show-stat-microcharts > div {
@@ -22701,10 +22701,10 @@ label:hover input[type="checkbox"][disabled].checkbox:checked + span:before {
   }
   .hidden-menu #main {
     position: relative;
-    left: 290px;
+    left: 240px;
   }
   .hidden-menu.fixed-ribbon #ribbon {
-    left: 300px;
+    left: 250px;
     width: 100%;
   }
   .fixed-ribbon #ribbon {

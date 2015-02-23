@@ -23,4 +23,27 @@
 		}	
 	}	
 }
-    
+
+// Defining Very Large screen
+@container-vlarge-desktop:      ((1346px + @grid-gutter-width));
+@container-vlg:                 @container-vlarge-desktop;
+
+@screen-vlg:                  1400px;
+@screen-vlg-min:              @screen-vlg;
+
+.container { 
+  @media (min-width: @screen-vlg-min) {
+    width: @container-vlg;
+  }
+}
+
+.container.fixed-header #header { 
+  @media (min-width: @screen-vlg-min) {
+    max-width: @container-vlg;
+  }
+}    
+.container.fixed-page-footer .page-footer{ 
+  @media (min-width: @screen-vlg-min) {
+    max-width: @container-vlg;
+  }
+}

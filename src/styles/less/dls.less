@@ -27,23 +27,54 @@
 // Defining Very Large screen
 @container-vlarge-desktop:      ((1346px + @grid-gutter-width));
 @container-vlg:                 @container-vlarge-desktop;
-
 @screen-vlg:                  1400px;
 @screen-vlg-min:              @screen-vlg;
+@screen-lg-max:              (@screen-vlg-min - 1);
 
-.container { 
-  @media (min-width: @screen-vlg-min) {
-    width: @container-vlg;
+@media (min-width: @screen-sm-min ) and (max-width: @screen-sm-max) {  
+  body.container {  
+      width: 100% !important;
+    }
+}
+@media (min-width: @screen-md-min ) and (max-width: @screen-md-max){
+  .container.fixed-header{
+      #header { 
+        max-width: @container-md;
+        width: @container-md;
+      }
   }
+  .container.fixed-page-footer{
+      .page-footer{ 
+        max-width: @container-md;
+        width: @container-md;
+      }
+  } 
+}
+@media (min-width: @screen-lg-min ) and (max-width: @screen-lg-max) {
+  .container.fixed-header{
+      #header { 
+          max-width: @container-lg;
+          width: @container-lg;
+      }
+  }  
+  .container.fixed-footer{
+      .page-footer{ 
+          max-width: @container-lg;
+          width: @container-lg;
+      }  
+  }   
 }
 
-.container.fixed-header #header { 
-  @media (min-width: @screen-vlg-min) {
-    max-width: @container-vlg;
+@media (min-width: @screen-vlg-min) {
+  .container { 
+      width: @container-vlg;
   }
-}    
-.container.fixed-page-footer .page-footer{ 
-  @media (min-width: @screen-vlg-min) {
-    max-width: @container-vlg;
+  .container.fixed-header #header { 
+      max-width: @container-vlg;
+      width: @container-vlg;
+  }   
+  .container.fixed-page-footer .page-footer{ 
+      max-width: @container-vlg;
+      width: @container-vlg; 
   }
 }

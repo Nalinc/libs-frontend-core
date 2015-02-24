@@ -26204,19 +26204,42 @@ body.smart-style-4 {
   padding-top: 10px;
   padding-left: 0px;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  body.container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container.fixed-header #header {
+    max-width: 966px;
+    width: 966px;
+  }
+  .container.fixed-page-footer .page-footer {
+    max-width: 966px;
+    width: 966px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container.fixed-header #header {
+    max-width: 1166px;
+    width: 1166px;
+  }
+  .container.fixed-footer .page-footer {
+    max-width: 1166px;
+    width: 1166px;
+  }
+}
 @media (min-width: 1400px) {
   .container {
     width: 1372px;
   }
-}
-@media (min-width: 1400px) {
   .container.fixed-header #header {
     max-width: 1372px;
+    width: 1372px;
   }
-}
-@media (min-width: 1400px) {
   .container.fixed-page-footer .page-footer {
     max-width: 1372px;
+    width: 1372px;
   }
 }
 

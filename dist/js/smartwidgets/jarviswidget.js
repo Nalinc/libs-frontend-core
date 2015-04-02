@@ -449,6 +449,8 @@
                 	fullscreenBtn,
                 	widgetcolorBtn,
                 	toggleBtn,
+                    // Compro Change: Updating hover text for Widget buttons
+                    toggleBtnTitle,
                 	toggleSettings,
                   	refreshBtn;
 
@@ -554,11 +556,16 @@
                         if (tWidget.data('widget-collapsed') === true || tWidget.hasClass(
                             'jarviswidget-collapsed')) {
                             toggleSettings = self.toggleClass[1];
+                            // Compro Change: Updating hover text for Widget buttons
+                            toggleBtnTitle = "Expand";
                         } else {
                             toggleSettings = self.toggleClass[0];
+                            // Compro Change: Updating hover text for Widget buttons
+                            toggleBtnTitle = "Collapse";
                         }
+                        // Compro Change: Updating hover text for Widget buttons
                         toggleBtn =
-                            '<a href="javascript:void(0);" class="button-icon jarviswidget-toggle-btn" rel="tooltip" title="Collapse" data-placement="bottom"><i class="' +
+                            '<a href="javascript:void(0);" class="button-icon jarviswidget-toggle-btn" rel="tooltip" title='+toggleBtnTitle+' data-placement="bottom"><i class="' +
                             toggleSettings + '"></i></a>';
                     } else {
                         toggleBtn = '';
@@ -875,6 +882,8 @@
                  * Change the class and hide/show the widgets content.
                  **/
                 if (pWidget.hasClass('jarviswidget-collapsed')) {
+                    // Compro Change: Updating hover text for Widget buttons
+                    tWidget.attr('data-original-title','Collapse');
                     tWidget.children()
                         .removeClass(self.toggleClass[1])
                         .addClass(self.toggleClass[0])
@@ -885,6 +894,8 @@
                             self._saveSettingsWidget();
                         });
                 } else {
+                    // Compro Change: Updating hover text for Widget buttons
+                    tWidget.attr('data-original-title','Expand');
                     tWidget.children()
                         .removeClass(self.toggleClass[0])
                         .addClass(self.toggleClass[1])
@@ -1068,6 +1079,8 @@
                  **/
                 if (tWidget.find(self.o.editPlaceholder)
                     .is(':visible')) {
+                    // Compro Change: Updating hover text for Widget buttons
+                    $(this).attr('data-original-title','Edit');
                     $(this)
                         .children()
                         .removeClass(self.editClass[1])
@@ -1078,6 +1091,8 @@
                             self._saveSettingsWidget();
                         });
                 } else {
+                    // Compro Change: Updating hover text for Widget buttons
+                    $(this).attr('data-original-title','Save');
                     $(this)
                         .children()
                         .removeClass(self.editClass[0])

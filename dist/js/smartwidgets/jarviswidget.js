@@ -727,6 +727,10 @@
                     items: sortItem.find(self.o.widgets + '.jarviswidget-sortable'),
                     connectWith: sortItem,
                     placeholder: self.o.placeholderClass,
+                    //Compro Change: Allow dragging of jarviswidgets only within their container.
+                    containment: "parent",
+                    axis: "y",
+                    tolerance: "pointer",
                     cursor: 'move',
                     revert: true,
                     opacity: self.o.opacity,
